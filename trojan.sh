@@ -156,7 +156,7 @@ function getData()
           ##  echo " ${DOMAIN} 解析结果：${resolve}"
             ## echo -e " ${RED}域名未解析到当前服务器IP(${IP})!${PLAIN}"
 	    ##resolve=`curl -sm8 ipget.net/?ip=${DOMAIN}`
-	    resolve=`curl -sm8 ipget.net?d=${DOMAIN}`
+	    resolve=$(curl -sm8 ipget.net/?ip=${DOMAIN})
 	    res=`echo -n ${resolve} | grep ${IP}`
 			##if [ $resolve != $IP ]; then
 			if [[ -z "${res}" ]]; then
