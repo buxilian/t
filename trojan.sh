@@ -150,7 +150,7 @@ function getData()
         CERT_FILE="/usr/local/etc/trojan/${DOMAIN}.pem"
         KEY_FILE="/usr/local/etc/trojan/${DOMAIN}.key"
     else
-        resolve=`curl -sm8 ipget.net?d=${DOMAIN}`
+        resolve=`curl -sm8 ipget.net/?ip=${DOMAIN}`
         res=`echo -n ${resolve} | grep ${IP}`
         if [[ -z "${res}" ]]; then
             echo " ${DOMAIN} 解析结果：${resolve}"
