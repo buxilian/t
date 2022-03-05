@@ -880,14 +880,14 @@ function uninstall() {
 
 menu() {
     clear
-    echo "#############################################################"
-    echo -e "#                    ${RED}trojan一键安装脚本${PLAIN}                    #"
-    echo -e "# ${GREEN}作者${PLAIN}: xx  #"
-    echo -e "# ${GREEN}网址${PLAIN}: xx  #"
-    echo -e "# ${GREEN}论坛${PLAIN}: xx  #"
-    echo -e "# ${GREEN}TG群${PLAIN}: xx  #"
-    echo -e "# ${GREEN}Youtube频道${PLAIN}: xx #"
-    echo "#############################################################"
+   ##echo "#############################################################"
+    ##echo -e "#                    ${RED}trojan一键安装脚本${PLAIN}                    #"
+    ##echo -e "# ${GREEN}作者${PLAIN}: xx  #"
+    ##echo -e "# ${GREEN}网址${PLAIN}: xx  #"
+    ##echo -e "# ${GREEN}论坛${PLAIN}: xx  #"
+    ##echo -e "# ${GREEN}TG群${PLAIN}: xx  #"
+    ##echo -e "# ${GREEN}Youtube频道${PLAIN}: xx #"
+    ##echo "#############################################################"
     echo ""
 
     echo -e "  ${GREEN}1.${PLAIN}  安装trojan"
