@@ -201,7 +201,7 @@ function getData()
     echo "   5) 自定义反代站点(需以http或者https开头)"
     read -p "  请选择伪装网站类型[默认:高清壁纸站]" answer
     if [[ -z "$answer" ]]; then
-        PROXY_URL="https://bing.imeizi.me"
+        PROXY_URL="https://wallhaven.cc"
     else
         case $answer in
         1)
