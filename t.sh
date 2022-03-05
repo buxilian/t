@@ -881,7 +881,7 @@ function uninstall() {
 menu() {
     clear
    ##echo "#############################################################"
-    echo -e "#                    ${RED}trojan一键安装脚本${PLAIN}                    #"
+    echo -e "${RED}trojan一键安装脚本${PLAIN}"
     ##echo -e "# ${GREEN}作者${PLAIN}: xx  #"
     ##echo -e "# ${GREEN}网址${PLAIN}: xx  #"
     ##echo -e "# ${GREEN}论坛${PLAIN}: xx  #"
